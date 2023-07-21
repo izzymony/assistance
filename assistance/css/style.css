@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2? family=Nunito&family=Nunito&display=swap");
+
+ *{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: "Nunito" sans-serif;
+    min-height: 100vh;
+    background-color:black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-container{
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side, .left-side{
+    list-style-type: none;
+}
+
+.right-side li, .left-side li{
+    display:inline-block;
+}
+
+.right-side li a, .left-side li a{
+    text-decoration: none;
+    display:block;
+    width:100%;
+    height: 100%;
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    padding: 14px 16px;
+    font-weight:lighter;
+}
+
+.right-side  li a, .left-side  li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.right-side li a{
+    margin-left: 2rem;
+}
+
+ .container{
+    background-color: grey;
+    width: 80%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 120%;  
+} 
+
+
+.box{
+    background-color: black;
+    margin-right: 4rem;
+    margin-left: 3rem;
+   
+    
+}
+.flex-box{
+    background-color: black;
+    margin-right: 64rem;
+    margin-left: 5rem;
+    display: flex;
+    margin-top: 5rem;  
+    gap: 3;  
+    justify-content: center;
+}
+
+ 
+.container2 {
+    background-color: black;
+    /* width: 90%;
+    height: 880px; */
+   /*  margin-bottom: 30rem; */
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-right: 12rem;
+}
+.container1 {
+    background-color:black ;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-right: 12rem;
+}
+
+
+main{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.wrapper1 h2{
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+    width: 40rem;
+    margin-left: 26%;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 40px;
+ }
+
+.imghi{
+   margin-left: 4rem; 
+   margin-top:6rem ;
+}
+
+
+.imghi:hover{
+    transform: translateY(5%);
+    transform: translateY(3%);
+    transition: all 0.3s ease-in-out;
+}
+.imgbx{
+     float: right;
+   margin-right: 15rem;
+   margin-top: 1rem ;
+   display: flex; 
+}
+
+
+.imgbox{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.img8{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+
+h3{
+    color: white;
+}
+
+.wrapper2 h2{
+    color: white;
+    background-color:black;
+    height: 12rem;
+    width: 35rem;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 29rem;
+    margin-top: 10rem;
+}
+.wrapper4 {
+    color: white;
+    background-color:black;
+    text-align: center;
+    width: 85rem;
+}
+
+h2{
+    margin-top: 3rem;
+}
+
+.button2 {
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+.button3 {
+    margin-top: 4rem;
+    margin-left: 3rem;  
+}
+.wrapper3{
+    background-color: black;
+    display: inline-block;
+    width: 25rem;
+    margin-left:20% ;
+    margin-bottom: 10rem;
+    margin-top: ;
+}
+
+.wrapper h1{
+    margin:4%;
+    background-color:black;
+    width: g;
+}
+.wrapper p{
+    margin:4%;
+    background-color:black;
+    overflow: hidden;
+    width: 40%;
+}
+
+
+
+p{
+    margin: 3%;
+    font-size: 18px;
+    word-wrap: break-word ;
+    overflow: hidden;
+    color: aliceblue;
+}   
+
+h1{
+    margin: 3%;
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+}
+
+h4{
+   font-size: 40px; 
+   color :white;
+   text-align: center;
+   margin-top: 20rem;
+}
+
+h5{
+    color: white;
+    display:flex; 
+    margin-left: 1rem;
+    font-size: 25px;
+    margin-top: 1.5 rem;
+}
+h6{
+    margin-left: 4rem;
+    color: white;
+    font-size: 40px;
+    margin-top: 16rem;
+    margin-right: 4rem ;
+   
+}
+
+
+
+.wrapper-project{
+    background:black;
+    width: 36rem; 
+    margin-left: 3rem; 
+}
+
+
+h3{
+    color: white;
+    font-size: 20px;
+    font-family: "Nunito" sans-serif;
+    margin-left: 4%;
+   
+}
+
+    
+
+button{
+    width: 120px;
+    height: 40px;
+    background: white;
+    border-radius: 12rem;
+    margin-left: 4.5rem;
+   
+    margin-bottom: 4rem;
+}
+
+
+
+input[type="submit"]{
+     width: 36%;
+     height: 40px;
+     background-color: white;
+     border-radius: 12rem;
+     margin:1rem;
+     margin-right: 2rem;
+}
+input[type="submit"]:hover{
+    transition: all 0.3s;
+    background-color: grey;
+    transform: rotatey(30deg); 
+}
+
+section{
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+
+footer {
+    display:flex ;
+    justify-content: space-between;
+    background-color:;
+   
+    color: #fff;
+    padding: 20px;
+    margin-top: 10rem;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+/* .footer-column {
+    flex: 1;
+    margin-right: 10px;
+}  */
+
+
+.footer-column h3 {
+    margin-bottom: 0px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    margin-right:20px;
+    gap: 5rem;
+}
+
+.footer-column a:hover {
+   
+}
+
+
